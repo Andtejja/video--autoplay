@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Autoplay</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+            max-height: 100vh;
+        }
+    </style>
+</head>
+<body>
+
+    <video autoplay muted loop playsinline>
+        <source src="activity.mp4" type="video/mp4">
+        Tu navegador no soporta video HTML5.
+    </video>
+
+</body>
+</html>
